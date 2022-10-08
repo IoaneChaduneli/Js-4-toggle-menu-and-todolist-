@@ -93,3 +93,28 @@
         align-items: center;
     }
 }
+section{
+    max-width: 1920px;
+    width: 100%;
+}
+section div{
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+#input-text{
+    max-width: 300px;
+    height: 30px;
+    width: 100%;
+}
+.btn-clear{
+    max-width: 50px;
+    width: 100%;
+    margin-top: 15px;
+}
+.form-btn{
+    max-width: 50px;
+    height: 30px;
+    height: 100%;
+}
