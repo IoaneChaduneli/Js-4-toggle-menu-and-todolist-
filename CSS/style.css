@@ -103,18 +103,23 @@ section div{
     margin: 0 auto;
     margin-top: 100px;
 }
-#input-text{
+.input-form{
     max-width: 300px;
     height: 30px;
     width: 100%;
 }
-.btn-clear{
-    max-width: 50px;
+.clearall{
+    max-width: 100px;
+    height: 30px;
     width: 100%;
     margin-top: 15px;
+    background-color: black;
+    color: white;
 }
-.form-btn{
-    max-width: 50px;
-    height: 30px;
+.btn-add{
+    max-width:100px;
+    height: 10px;
     height: 100%;
+    background-color: black;
+    color: white;
 }
