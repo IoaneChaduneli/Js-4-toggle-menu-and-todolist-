@@ -17,8 +17,7 @@ form.addEventListener("submit", function(event){
     let value=inputBlock.value;
     let li=document.createElement("li");
     let deleteButton=document.createElement("button");
-    let i=document.createElement("i");
-    i.classList.add("fa-solid","fa-delete-left");
+    deleteButton.innerHTML='<i class="fa-solid fa-trash"></i>';
     deleteButton.addEventListener("click", function(){
         li.remove();
     })
