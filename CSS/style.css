@@ -123,3 +123,6 @@ section div{
     background-color: black;
     color: white;
 }
+li button{
+    margin-left: 10px;
+}
